@@ -13,3 +13,6 @@ services:
 
 volumes:
   mongodb_data_container:
+
+networks:
+  default:
