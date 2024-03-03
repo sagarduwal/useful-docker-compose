@@ -1,8 +1,8 @@
 version: '3.8'
 services:
-  animoca-pg:
+  default-pg:
     image: postgres:14.1-alpine
-    container_name: animoca-pg
+    container_name: default-pg
     restart: always
     environment:
       - POSTGRES_USER=postgres
